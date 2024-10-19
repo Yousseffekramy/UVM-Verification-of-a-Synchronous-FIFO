@@ -1,0 +1,35 @@
+# RTL Design
+fifo_shared.sv
+fifo_dut.v                    
+
+# SVA and Interface
+fifo_SVA.sv                     
+fifo_interface.sv 
+
+# Configuration Object
+fifo_config.sv 
+
+# UVM Transactions, Sequences and items
+fifo_sequence_item.sv           
+fifo_sequence.sv                
+fifo_sequencer.sv    
+
+# Driver and Monitor
+fifo_driver.sv 
+fifo_monitor.sv  
+
+# UVM Checkers (Scoreboard, Coverage Collector)
+fifo_scoreboard.sv
+fifo_coverage_collector.sv
+
+# Agent
+fifo_agent.sv 
+
+# Environment
+fifo_env.sv  
+
+# TEST
+fifo_test.sv 
+
+# Top Module
+top_module.sv                   
